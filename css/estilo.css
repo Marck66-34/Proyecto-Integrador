@@ -10,9 +10,15 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-h1{
+main h1{
+    color: rgb(34, 155, 70);
     text-align: center;
-    color:aliceblue;
+}
+section h1{
+    color:rgb(34, 155, 70);
+    position:fixed;
+    display:contents;
+    margin:20px;
 }
 h2, h3, h4{
     margin-top: 10px;
@@ -66,15 +72,19 @@ nav .enlaces a:hover {
 #Contenido{
     margin-left:20px;
     text-decoration: none;
+    width: 100%;
     color: rgba(250, 246, 246, 0.966);
     font-size: 18px;
+    display:flex;
+    flex-direction: row;
 }
 .Texto1 p{
      background-color: #bbd0df56; 
      border-radius:2%;
-    max-width: 1000px;
-    height:60px;
+    max-width: 500px;
+    height:150px;
     padding:13px;
+    margin:25px;
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -83,22 +93,28 @@ nav .enlaces a:hover {
 .Texto2 p{
         background-color: #bbd0df56;
             border-radius: 2%;
-            max-width: 1000px;
-            height: 60px;
+            max-width: 500px;
+            height: 160px;
             padding:10px;
+            margin:15px;
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
             box-shadow: 5px 10px #88888849;
 }
-.servicios ol{
+.servicios ol {
     background-color: #bbd0df56;
+    color:white;
         border-radius: 2%;
-        max-width: 1000px;
+        max-width: 800px;
         height: 200px;
+        margin:10px;
         padding-top:15px;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
         box-shadow: 8px 20px #88888849;
+}
+footer{
+    font-size: 10px;
 }
