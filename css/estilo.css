@@ -4,8 +4,11 @@
 }
 body{
     font-family: 'Roboto';
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(39, 190, 143, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    background-image:url('../img/abstract-futuristic-background-with-3d-design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+ background-size: cover;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,12 +17,6 @@ main h1{
     color: rgb(34, 155, 70);
     text-align: center;
 }
-section h1{
-    color:rgb(34, 155, 70);
-    position:fixed;
-    display:contents;
-    margin:20px;
-}
 h2, h3, h4{
     margin-top: 10px;
     color:white;
@@ -27,6 +24,7 @@ h2, h3, h4{
     display: flex;
     
 }
+/*-----------------------------------------------------------comienzo de menu-----------------------------------------*/
 .Menu {
     max-width: 1000px;
     width: 90%;
@@ -70,17 +68,24 @@ nav .enlaces a:hover {
     color: #707070;
     
 }
+/*------------------------------------------fin de menu---------------------------------------------*/
+/*----------------------------------------------contenido-producto-----------------------------------------*/
 .conten-producto {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
+    margin: auto;
 
 }
 
 .productos {
     padding-top: 30px;
     margin-bottom: 80px;
+    margin: 10px;
     background: #0F2027;
+     box-shadow: 8px 20px #88888849;
+     border-radius:2%;
+     opacity:80%;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -88,7 +93,10 @@ nav .enlaces a:hover {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
+.productos h1{
+       color: rgb(34, 155, 70);
+    text-align:center;
+}
 .producto_1 {
 
     width: 100%;
@@ -98,18 +106,12 @@ nav .enlaces a:hover {
 .producto_1 .pro {
     width: 55%;
     background: rgba(255, 255, 255, .2);
+    box-shadow: 5px 10px #88888849;
     color: #fff;
     border-radius: 10px;
     padding: 40px 35px;
     margin-bottom: 20px;
     margin-left: 20px;
-}
-
-.productos h1 {
-    color: #fff;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
 }
 
 .producto_1 .pro img {
@@ -136,62 +138,14 @@ nav .enlaces a:hover {
     line-height: 33px;
 }
 
-.botonDonar a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 200px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.botonDonar {
-    background: rgba(17, 135, 214, 0.507);
-    width: 60%;
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
-    margin: auto;
-    padding: 10px 25px;
-    margin-top: 15px;
-}
-
-@media screen and (max-width:970px) {
-
-    /* results */
-    .conten-producto {
-        width: 100%;
-    }
-
-    .productos {
-        margin-top: 20px;
-    }
-
-    .producto_1 {
-        width: 100%;
-        max-height: 800px;
-
-    }
-
-    .results-text a {
-        margin-bottom: 60px;
-    }
-
-    .results img {
-        width: 80%;
-    }
-
-    .producto_1 .pro p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .botonDonar {
-        width: 80%;
-        margin: auto;
-    }
-}
 strong{
     color:aqua;
+}
+/*------------------------------------------------------------------fin---------------------------------------------------------*/
+.servicios{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
 }
 .servicios ol {
     background-color: #bbd0df56;
@@ -209,6 +163,30 @@ strong{
 .servicios ol li{
     font-size: 20px;
 }
+.consulta{
+    margin-top:40px;
+    margin-left: 10px;
+}
+.consulta p{
+    color: white;
+    padding: 10px;
+}
 footer{
-    font-size: 10px;
+    font-size:15px;
+    margin: 10px;
+    background-color: #bbd0df56;
+    height:80px;
+    display: flex;
+    justify-content: center;
+}
+footer h1 {
+    color:white;
+    width:100%;
+    padding-top:8px;
+    border-radius:2%;
+    text-align:center;
+}
+footer p{
+    color:white;
+    text-align: center;
 }
