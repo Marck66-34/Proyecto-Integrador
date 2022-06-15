@@ -1,0 +1,104 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300&display=swap');
+
+}
+body{
+    font-family: 'Roboto';
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(39, 190, 143, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+}
+h2, h3, h4{
+    margin-top: 10px;
+    color:white;
+    font-size:20px ;
+    
+}
+.Menu {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+nav {
+    background: #1777b8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all; 
+}
+nav .enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav .enlaces a {
+    margin-right: 40px;
+    text-decoration: none;
+    color:rgba(250, 246, 246, 0.966);
+    font-size: 20px;
+}
+
+nav .enlaces a:hover {
+    color: #707070;
+    
+}
+#Contenido{
+    margin-left:20px;
+    text-decoration: none;
+    color: rgba(250, 246, 246, 0.966);
+    font-size: 18px;
+}
+.Texto1 p{
+     background-color: #bbd0df56; 
+     border-radius:2%;
+    max-width: 1000px;
+    height:60px;
+    padding:13px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 5px 10px #88888849;
+}
+.Texto2 p{
+        background-color: #bbd0df56;
+            border-radius: 2%;
+            max-width: 1000px;
+            height: 60px;
+            padding:10px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            box-shadow: 5px 10px #88888849;
+}
+.servicios ol{
+    background-color: #bbd0df56;
+        border-radius: 2%;
+        max-width: 1000px;
+        height: 200px;
+        padding-top:15px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        box-shadow: 8px 20px #88888849;
+}
