@@ -171,22 +171,38 @@ strong{
     color: white;
     padding: 10px;
 }
+.pie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
 footer{
     font-size:15px;
     margin: 10px;
     background-color: #bbd0df56;
     height:80px;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
 }
 footer h1 {
     color:white;
     width:100%;
-    padding-top:8px;
     border-radius:2%;
-    text-align:center;
+    text-align: center;
 }
 footer p{
     color:white;
+    text-align: justify;
+}
+footer a {
+    color:#fff;
+    text-decoration: none;
     text-align: center;
+}
+footer a:hover{
+    color:aqua;
+    font-size:20px;
 }
