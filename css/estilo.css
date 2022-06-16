@@ -175,7 +175,6 @@ strong{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
 }
 footer{
     font-size:15px;
@@ -192,15 +191,18 @@ footer h1 {
     width:100%;
     border-radius:2%;
     text-align: center;
+    padding:15px;
 }
 footer p{
     color:white;
     text-align: justify;
+    width:200%;
 }
 footer a {
     color:#fff;
     text-decoration: none;
     text-align: center;
+    padding: 15px;
 }
 footer a:hover{
     color:aqua;
