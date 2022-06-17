@@ -30,6 +30,8 @@ h2, h3, h4{
     width: 90%;
     margin: auto;
     padding: 50px 0;
+    display: flex;
+    flex-direction: row;
 }
 
 nav {
@@ -37,6 +39,7 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width:100%;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -45,6 +48,7 @@ nav {
     align-items: center;
     padding: 15px 20px;
     border-radius: 5px;
+
     -webkit-transition: .3s ease all;
     transition: .3s ease all; 
 }
@@ -67,6 +71,10 @@ nav .enlaces a {
 nav .enlaces a:hover {
     color: #707070;
     
+}
+.logo img{
+    width:100px;
+  
 }
 /*------------------------------------------fin de menu---------------------------------------------*/
 /*----------------------------------------------contenido-producto-----------------------------------------*/
@@ -142,26 +150,36 @@ strong{
     color:aqua;
 }
 /*------------------------------------------------------------------fin---------------------------------------------------------*/
+#servicio{
+display: flex;
+background-color: #bbd0df56;
+border-radius: 2%;
+max-width: 1000px;
+height: 260px;
+margin: 50px;
+padding-top:0px;
+box-shadow: 8px 20px #88888849;
+}
+#servicio h2{
+    color:aqua;
+    width: 0px;
+    height: 0px;
+    padding:5px,2px, 5px, 4px;
+}
 .servicios{
-    margin:30px;
-    display: flex;
-    flex-direction: column;
+display: flex;
+margin:10px;
 }
 .servicios ol {
-    background-color: #bbd0df56;
     color:white;
-        border-radius: 2%;
-        max-width: 800px;
-        height: 200px;
-        margin:10px;
-        padding-top:15px;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        box-shadow: 8px 20px #88888849;
+    padding-top: 12px;
+       
 }
 .servicios ol li{
     font-size: 20px;
+}
+.servicios img{
+    width:300px;
 }
 .consulta{
     margin-top:40px;
@@ -170,6 +188,14 @@ strong{
 .consulta p{
     color: white;
     padding: 10px;
+}
+aside{
+    display : flex;
+    justify-content: space-evenly;
+    padding:2%;
+}
+aside img{
+    width:50px;
 }
 .pie{
     display: flex;
