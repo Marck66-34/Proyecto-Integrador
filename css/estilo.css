@@ -234,3 +234,12 @@ footer a:hover{
     color:aqua;
     font-size:20px;
 }
+/* servicios */
+#mensaje{
+    background-color: rgba(255, 255, 0, 0.747);
+    width:50%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
